@@ -1,0 +1,31 @@
+{
+  "name": "express-simple-server",
+  "version": "1.0.0",
+  "description": "A simple web-server built with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nilaysavant/Express-Simple-Server.git"
+  },
+  "author": "Nilay Savant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilaysavant/Express-Simple-Server/issues"
+  },
+  "homepage": "https://github.com/nilaysavant/Express-Simple-Server#readme",
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "node-fetch": "^2.3.0",
+    "pg": "^7.8.1"
+  }
+}
