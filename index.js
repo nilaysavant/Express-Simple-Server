@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
     res.send('hello!')
 })
 
+app.post('/', (req, res) => {
+    res.send(req.body.key)
+})
+
 app.listen(PORT, () => {
     console.log('Serving on port:', PORT)
 })
