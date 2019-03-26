@@ -4,7 +4,7 @@
   "description": "A simple web-server built with express",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
